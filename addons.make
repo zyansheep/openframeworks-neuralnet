@@ -1,0 +1,2 @@
+ofxTextSuite
+ofxXmlSettings
