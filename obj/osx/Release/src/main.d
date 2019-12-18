@@ -720,10 +720,10 @@ obj/osx/Release/src/main.o: \
   /Users/Zyansheep/Code/Openframeworks/libs/openFrameworks/3d/ofCamera.h \
   /Users/Zyansheep/Code/Openframeworks/libs/openFrameworks/3d/ofEasyCam.h \
   /Users/Zyansheep/Code/Openframeworks/apps/myApps/NeuralNetwork/src/ofApp.h \
-  /Users/Zyansheep/Code/Openframeworks/apps/myApps/NeuralNetwork/src/NeuralNet.hpp \
+  /Users/Zyansheep/Code/Openframeworks/apps/myApps/NeuralNetwork/src/Utils/NeuralNet.hpp \
   /Users/Zyansheep/Code/Openframeworks/apps/myApps/NeuralNetwork/src/utl.h \
-  /Users/Zyansheep/Code/Openframeworks/apps/myApps/NeuralNetwork/src/Utils.hpp \
-  /Users/Zyansheep/Code/Openframeworks/apps/myApps/NeuralNetwork/src/Menu.hpp
+  /Users/Zyansheep/Code/Openframeworks/apps/myApps/NeuralNetwork/src/Utils/Utils.hpp \
+  /Users/Zyansheep/Code/Openframeworks/apps/myApps/NeuralNetwork/src/Utils/Menu.hpp
 
 /Users/Zyansheep/Code/Openframeworks/libs/openFrameworks/ofMain.h:
 
@@ -2165,10 +2165,10 @@ obj/osx/Release/src/main.o: \
 
 /Users/Zyansheep/Code/Openframeworks/apps/myApps/NeuralNetwork/src/ofApp.h:
 
-/Users/Zyansheep/Code/Openframeworks/apps/myApps/NeuralNetwork/src/NeuralNet.hpp:
+/Users/Zyansheep/Code/Openframeworks/apps/myApps/NeuralNetwork/src/Utils/NeuralNet.hpp:
 
 /Users/Zyansheep/Code/Openframeworks/apps/myApps/NeuralNetwork/src/utl.h:
 
-/Users/Zyansheep/Code/Openframeworks/apps/myApps/NeuralNetwork/src/Utils.hpp:
+/Users/Zyansheep/Code/Openframeworks/apps/myApps/NeuralNetwork/src/Utils/Utils.hpp:
 
-/Users/Zyansheep/Code/Openframeworks/apps/myApps/NeuralNetwork/src/Menu.hpp:
+/Users/Zyansheep/Code/Openframeworks/apps/myApps/NeuralNetwork/src/Utils/Menu.hpp:

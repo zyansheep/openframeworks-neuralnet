@@ -721,7 +721,7 @@ obj/osx/Release/src/Menu.o: \
   /Users/Zyansheep/Code/Openframeworks/libs/openFrameworks/3d/ofCamera.h \
   /Users/Zyansheep/Code/Openframeworks/libs/openFrameworks/3d/ofEasyCam.h \
   /Users/Zyansheep/Code/Openframeworks/apps/myApps/NeuralNetwork/src/utl.h \
-  /Users/Zyansheep/Code/Openframeworks/apps/myApps/NeuralNetwork/src/Utils.hpp
+  /Users/Zyansheep/Code/Openframeworks/apps/myApps/NeuralNetwork/src/Utils/Utils.hpp
 
 /Users/Zyansheep/Code/Openframeworks/apps/myApps/NeuralNetwork/src/Menu.hpp:
 
@@ -2165,4 +2165,4 @@ obj/osx/Release/src/Menu.o: \
 
 /Users/Zyansheep/Code/Openframeworks/apps/myApps/NeuralNetwork/src/utl.h:
 
-/Users/Zyansheep/Code/Openframeworks/apps/myApps/NeuralNetwork/src/Utils.hpp:
+/Users/Zyansheep/Code/Openframeworks/apps/myApps/NeuralNetwork/src/Utils/Utils.hpp:

@@ -192,6 +192,11 @@ string NeuralNet::exportData(bool type){
   return output;
 }
 
+template<typename T>
+void getRead(ifstream &file, T &x){
+	file.read(reinterpret_cast<char*>(&x), sizeof(x));
+}
+
 bool NeuralNet::importNetwork(string filepath){
   //returns true if successful at importing
   ifstream file;
@@ -199,9 +204,6 @@ bool NeuralNet::importNetwork(string filepath){
   
   unsigned long pos = 0;
   //read len bytes from file and return char array + increment reader
-  auto getRead = [&](auto &x){
-    file.read(reinterpret_cast<char*>(&x), sizeof(x));
-  };
   
   int layer = 0;
   int index = 0;
@@ -209,25 +211,25 @@ bool NeuralNet::importNetwork(string filepath){
   vector<shared_ptr<neuron>> curLayer;
   while (!file.eof()) {
     //read from file
-    int l; getRead(l);
-    int n; getRead(n);
+    int l; getRead(file, l);
+    int n; getRead(file, n);
     
     //get input string
     vector<char> cvec;
-    char curChar; getRead(curChar);
+    char curChar; getRead(file, curChar);
     while(curChar != ';'){
       cvec.push_back(curChar);
-      getRead(curChar);
+      getRead(file, curChar);
     }
     string str(cvec.begin(), cvec.end());
     
-    unsigned long nlen; getRead(nlen);
+    unsigned long nlen; getRead(file, nlen);
     
     vector<double> weights(nlen);
     for(int i=0;i<weights.size();i++){
-      getRead(weights[i]);
+      getRead(file, weights[i]);
     }
-    double bias; getRead(bias);
+    double bias; getRead(file, bias);
     
     //set neuron
     index = n;
