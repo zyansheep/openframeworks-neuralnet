@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/zyansheep/openframeworks-utils
+	branch = master
+	commit = be0d618bbe677db24094f35fc8f19976e63f6a51
+	parent = 632639f324a8170dcce0abec9067040ed31810c4
+	method = merge
+	cmdver = 0.4.0
