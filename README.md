@@ -2,8 +2,10 @@
 An Interactive, simple neural network to learn how neural networks work
 
 ## Installation
-Clone the OpenFrameworks repository
-`git clone https://github.com/openframeworks/openFrameworks/`
+Download OpenFrameworks for your OS from the website or you can try and clone it:
+```https://openframeworks.cc/download/```
+or
+```git clone https://github.com/openframeworks/openFrameworks/```
 Go to the myApps directory
 `cd openFrameworks/apps/myApps`
 clone openframeworks-neuralnet
@@ -12,3 +14,5 @@ clone openframeworks-neuralnet
 Compile and Run
 `make`
 
+This was made on MacOSX and has only been tested on 10.13 Sierra
+You will have to use the OpenFrameworks Project Generator to create a new project on your OS and copy the src folder over to compile.
